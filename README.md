@@ -20,7 +20,7 @@ It is because of the following open-source project that we have our own website.
 -   [hugo](https://gohugo.io/)
 -   [stack](https://stack.jimmycai.com/)
 
-Welcome to our official website [yujianxiaoling.com](https://yujianxiaoling.com) .
+Welcome to official website [yujianxiaoling.com](https://yujianxiaoling.com) .
 
 For more information, please refer to blog articles [Infiling](https://iofomo.com/infiling) .
 
