@@ -1,0 +1,62 @@
+module:
+    hugoVersion:
+        extended: true
+        min: "0.87.0"
+
+params:
+    mainSections:
+        - post
+    featuredImageField: image
+    rssFullContent: true
+    # e.g.: favicon placed in `` of your site folder, then set this field to `/favicon.ico` (`/` is necessary)
+    favicon: "/favicon.ico"
+
+    footer:
+        since:
+        customText:
+
+    dateFormat:
+        published: 2006/01/02
+        lastUpdated: 2006/01/02 15:04
+
+    sidebar:
+        compact: false
+        emoji:
+        subtitle:
+        avatar:
+            enabled: true
+            local: true
+            src: img/avatar.png
+
+    article:
+        math: false
+        toc: true
+        readingTime: true
+        license:
+            enabled: false
+            default: 版权所有，转载请联系授权
+
+    widgets:
+        homepage: []
+        page: []
+
+    defaultImage:
+        opengraph:
+            enabled: false
+            local: false
+            src:
+
+    colorScheme:
+        # Display toggle
+        toggle: true
+
+        # Available values: auto, light, dark
+        default: auto
+
+    imageProcessing:
+        cover:
+            enabled: true
+        content:
+            enabled: true
+
+timeout: 60000

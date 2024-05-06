@@ -1,0 +1,16 @@
+{{ $prev := .Prev }}
+{{ $next := .Next }}
+{{ if or $prev $next }}
+<div class="prev-next-links">
+    {{ with $prev }}
+    <div class="prev-link">
+        <a href="{{ .RelPermalink }}"><strong>前一篇：</strong> {{ .Title }}</a>
+    </div>
+    {{ end }}
+    {{ with $next }}
+    <div class="next-link">
+        <a href="{{ .RelPermalink }}"><strong>后一篇：</strong> {{ .Title }}</a>
+    </div>
+    {{ end }}
+</div>
+{{ end }}

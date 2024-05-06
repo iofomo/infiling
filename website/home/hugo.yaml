@@ -1,0 +1,137 @@
+baseURL: "https://yujianxiaoling.com/"
+languageCode: cn
+theme: yujianxiaoling
+paginate: 10
+title: 小灵 · 情绪创富系统
+copyright: YuJianXiaoLing Inc.  Built with Hugo theme by Stack.
+
+DefaultContentLanguage: cn
+
+hasCJKLanguage: false
+
+services:
+    # Change it to your Disqus shortname before using
+    disqus:
+        shortname: "YuJianXiaoLing"
+    # GA Tracking ID
+    googleAnalytics:
+        id:
+
+permalinks:
+    post: /p/:slug/
+    page: /:slug/
+
+params:
+    mainSections:
+        - post
+    featuredImageField: image
+    rssFullContent: true
+    # e.g.: favicon placed in `` of your site folder, then set this field to `/favicon.ico` (`/` is necessary)
+    favicon: "/favicon.ico"
+
+    footer:
+        since: 2024
+        customText:
+
+    dateFormat:
+        published: 2006/01/02
+        lastUpdated: 2006/01/02 15:04
+
+    sidebar:
+        subtitle: 帮助 1000 万人情绪自由，家庭幸福，发挥自己的天赋热爱，拥有富而喜悦的人生。
+        avatar:
+            enabled: true
+            local: true
+            src: img/avatar.png
+
+    article:
+        math: false
+        toc: true
+        readingTime: true
+        license:
+            enabled: false
+            default: 版权所有，转载请联系授权
+
+    widgets:
+        homepage:
+            - type: search
+            - type: archives
+              params:
+                  limit: 5
+            - type: categories
+              params:
+                  limit: 10
+            - type: tag-cloud
+              params:
+                  limit: 10
+        page:
+            - type: toc
+
+    defaultImage:
+        opengraph:
+            enabled: false
+            local: false
+            src:
+
+    colorScheme:
+        # Display toggle
+        toggle: true
+
+        # Available values: auto, light, dark
+        default: auto
+
+    imageProcessing:
+        cover:
+            enabled: true
+        content:
+            enabled: true
+
+menu:
+    main: []
+
+    social:
+        - identifier: wechat
+          weight: 1
+          name: wechat
+          url: /about/#微信
+          params:
+              newTab: false
+              icon: brand-wechat
+        - identifier: qq
+          weight: 2
+          name: qqq
+          url: /about/#qq
+          params:
+              newTab: false
+              icon: brand-qq
+
+related:
+    includeNewer: true
+    threshold: 60
+    toLower: false
+    indices:
+        - name: tags
+          weight: 100
+
+        - name: categories
+          weight: 200
+
+markup:
+    goldmark:
+        renderer:
+            ## Set to true if you have HTML content inside Markdown
+            unsafe: true
+    tableOfContents:
+        endLevel: 4
+        ordered: true
+        startLevel: 2
+    highlight:
+        noClasses: false
+        codeFences: true
+        guessSyntax: true
+        lineNoStart: 1
+        lineNos: true
+        lineNumbersInTable: true
+        tabWidth: 4
+
+timeout: 60000
