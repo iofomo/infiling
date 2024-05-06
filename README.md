@@ -22,7 +22,7 @@ It is because of the following open-source project that we have our own website.
 
 Welcome to official website [yujianxiaoling.com](https://yujianxiaoling.com) .
 
-For more information, please refer to blog articles [Infiling](https://iofomo.com/infiling) .
+For more information, please refer to blog articles [Infiling](https://www.iofomo.com/docs/services/infiling/blog) .
 
 ## Talk is cheap, show me the product
 
